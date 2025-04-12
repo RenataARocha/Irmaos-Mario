@@ -4,33 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
-=======
-    <Link rel="stylesheet" href="style.css">
->>>>>>> e9a983e684ced19d719b8f996f6aa7d18a9a654a
+
+
     <title>Mario Bros</title>
 </head>
 
 <body>
     <div class="mascara-formulario" onclick="esconderForm()"></div>
 
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <form class="formulario-fale-conosco" onsubmit="enviarForm(event)">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+    
+
     <div class="header">
-<<<<<<< HEAD
-        <img src="Imagem/img/logo-header.png" alt="logo header mario">
-=======
-        <img src="Imagem/img/logo header.png" alt="logo header mario">
->>>>>>> e9a983e684ced19d719b8f996f6aa7d18a9a654a
-        <a>Home</a>
+
+        <img src="assets/img/logo-header-mario.png" alt="logo header mario">
+        <a href="#">Home</a>
         <a href="nossos-servicos.html">Nossos Serviços</a>
         <a onclick="cliqueiNoFaleConosco()">Fale Conosco</a>
     </div>
 
 
-
     <div class="caixa-mae">
         <div class="caixa-principal">
-            <img src="Imagem/img/logo.png" alt="Logo do mario bros" class="logo-mario">
+            <img src="assets/img/logo-principal.png" alt="Logo do mario bros" class="logo-mario">
             <p class="texto-pequeno">
                 Encanadores Mario & Luigi - Resolvendo seus problemas com Estilo!</p>
             <p class="texto-longo">
@@ -45,30 +50,22 @@
         </div>
 
         <div>
-            <img src="Imagem/img/mario.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+            <img src="assets/img/mario-luigi-personagem.png" alt="logo mario e luigi" class="imagem-mario-luigi">
         </div>
     </div>
 
 
     <div class="caixa-video">
-        <video src="Imagem/img/video.mp4" autoplay muted loop></video>
+        <video src="assets/img/video-servicos-mario.mp4" autoplay muted loop></video>
         <div class="mascara"></div>
     </div>
 
-    <a href="https://wa.link/r8dzkn" class="link-whatsapp">
-        <img src="Imagem/img/Whats.png" alt="link para o whatsapp">
+    <a href="" class="link-whatsapp" aria-label="Fale conosco pelo WhatsApp">
+
+        <img src="assets/img/whatsapp-icon.png" alt="link para o whatsapp">
     </a>
 
-<<<<<<< HEAD
-=======
-    <form class="formulario-fale-conosco" action="https://formcarry.com/s/XtYng3pQBFz" method="POST"
-        enctype="multipart/form-data">
-        <input placeholder="Seu nome" type="text" name="nome">
-        <input placeholder="Seu telefone" type="tel" name="telefone">
-        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
-        <button type="submit">Pedir Orçamento</button>
-    </form>
->>>>>>> e9a983e684ced19d719b8f996f6aa7d18a9a654a
+
 </body>
 <script src="scripts.js"></script>
 

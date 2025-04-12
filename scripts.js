@@ -18,11 +18,14 @@ function esconderForm() {
 function cliqueiNoFaleConosco(){
     form.style.left = "50%"
     form.style.transform = "translateX(-50%)"
-    macara.style.visibility = "visible"
-
-
+    macara.style.visibility = "visible"  
 
 }
 
+function enviarForm(event) {
+    event.preventDefault(); // Impede o envio do formulário
+    alert("Obrigada pelo contato! 💌 Vamos te responder rapidinho!");
+    esconderForm(); // Fecha o formulário
+}
 
 
