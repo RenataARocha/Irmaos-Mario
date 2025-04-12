@@ -32,7 +32,7 @@ O projeto apresenta uma interface interativa e responsiva, oferecendo informaç�
 
 <h2>🎨 Layout</h2>
 
-Link: https://renataarocha.github.io/Irmaos-Mario/
+Link: https://renataarocha.github.io/bros-plumbing-solutions/
 
 ![ççljkõhpj](https://github.com/user-attachments/assets/5c4f9c6e-60b8-4168-bcf2-93092a4c3c1c)
 
@@ -45,7 +45,7 @@ git clone https://github.com/RenataARocha?tab=repositories <br> <br>
 2. Acesse a pasta do projeto: <br>
 cd Projeto---Irm-os-Mario <br> <br>
 3. Abra o Link em seu navegador. <br>
-https://renataarocha.github.io/Irmaos-Mario/ <br> <br>
+https://renataarocha.github.io/bros-plumbing-solutions/ <br> <br>
 
 
 <h2>🤝 Contribuição</h2>
